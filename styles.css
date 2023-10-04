@@ -1,0 +1,107 @@
+body
+{
+    background-image: url(Pizza.jpg);
+    
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkorange;
+    margin: 10px;;
+    padding: 10px;
+}
+.container
+{
+    max-width: fit-content;
+    margin: 800;
+    padding: 50px;
+    background-color: brown;
+    box-shadow: 0 0 0.2px rgba(1,1,2,3);
+}
+/*header*/
+header{
+    text-align: centre;
+    margin-bottom: 10px;
+}
+h1{
+    color: rgb(220, 20, 207);
+    text-align: center;
+}
+/*form style*/
+form{
+    background-color: rgba(245, 188, 44, 0.342);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 0 5px rgba(10, 0, 0, 0.879);
+}
+legend{
+    font-weight: bolder;
+    display:block;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width: 50%;
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 1px springgreen #130103;
+    border-radius: 20px;
+}
+input[type="checkbox"],
+input[type="radio"]{
+
+    margin-right: 10px;
+}
+/*button style*/
+input[type="submit"],
+input[type="reset"]{
+    background-color: rgb(20, 112, 52);
+color: #efeff4;
+padding:10px 5px;
+border:deeppink;
+border-radius: 10px;
+cursor:pointer;
+font-family:Arial, Helvetica, sans-serif;
+font-size: medium;
+font-style:italic;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background-color: rgb(218, 69, 52);
+}
+/*footer style*/
+footer{
+    text-align:center;
+    margin-top: 10px;
+    color: rgb(235, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-size: x-large;
+    }
+    legend{
+        color: rgb(22, 15, 229);
+        font-size: 25px;
+        text-align: center;
+        text-decoration:underline;
+        letter-spacing: 1px;
+        text-shadow: 1px 2px 2px rgb(223, 243, 7);
+    }
+    label{
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:rgb(255, 247, 7);
+        text-shadow: 1px 1px rgb(218, 69, 52);
+    }
+    p{
+        font-size: larger;
+        line-height: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        margin-bottom: 20px;
+        text-align: center;
+        color:rgb(6, 9, 2);
+
+    }

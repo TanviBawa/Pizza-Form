@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill up a Quick Simple form to Order Your Pizza</title>
+<link href="styles.css"rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Get your Pizza from Pizza Villa!</h1>
+        <p>Customize your pizza</p>
+    </header>
+
+    <main>
+        <form action="order_confirmation.php"method="POST">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="name">Enter your name:</label>
+                <input type="text"id="name"name="name"required><br><br>
+
+                <label for ="Mobile Number:">Enter your Mobile Number:</label>
+                <input type="tel"id="Mobile Number"name="Mobile Number"required><br><br>
+
+                <label for ="email:">Enter your email address:</label>
+                <input type="email"id="email"name="email"required><br><br>
+            </fieldset>
+
+        <fieldset>
+            <legend>Design your Pizza</legend>
+            <label for="Quantity">Required number of pizzas:</label>
+                <input type="number"id="Quantity"name="Quantity"required><br><br>
+             
+                <label for="Size of pizza">What size you want:</label>
+                <select id="Size of pizza"name="Size of pizza">
+                <option value="Jumbo">Jumbo</option>
+                <option value="Large">Large</option>
+                <option value="Medium">Medium</option>
+                <option value="Small">Small</option>
+                </select><br><br>
+
+                <label for="Shape">Shape:</label><br>
+                <input type="radio"id="Circular"name="shape"value="Circular"checked>
+                <label for="Circular">Round</label><br>
+                <input type="radio"id="Square"name="shape"value="Square">
+                <label for="Square">Square</label><br><br>
+
+                <label for="Toppings">Toppings:</label><br>
+                <input type="checkbox"id="olives"name="toppings[]"value="olives">
+                <label for="olives">Olives</label><br><br>
+
+                <input type="checkbox"id="Jalapeno"name="toppings[]"value="Jalapeno">
+                <label for="Jalapeno">Jalapeno</label><br><br>
+
+                <input type="checkbox"id="Mushroom"name="toppings[]"value="Mushroom">
+                <label for="Mushroom">Mushroom</label><br><br>
+
+                <input type="checkbox"id="Bellpeppers"name="toppings[]"value="Bellpeppers">
+                <label for="Bellpeppers">Bellpeppers</label><br><br>
+
+                <label for="Crust choice">Crust Choice</label>
+                <select id="Crust choice"name="Crust choice">
+                    <option value="Flat Bread Crust">Flat Bread Crust</option>
+                    <option value="Thick Crust">Thick Crust</option>
+                    <option value="Cheese Crust">Cheese Crust</option>
+                    <option value="Cracker Crust">Cracker Crust</option>
+                    </select><br><br>
+                
+                <label for="Service type">Service type:</label><br>
+                <input type="radio"id="Delivery"name="serive type"value="Delivery">
+                <label for="Delivery">Delivery</label><br>
+                <input type="radio"id="eat in"name="serive type"value="eat in">
+                <label for="Eat in">Eat in</label><br>
+                <input type="radio"id="take out"name="serive type"value="take out">
+                <label for="Take out">Take Out</label><br><br>
+
+                <label for="Additions">Additions</label><br>
+                <textarea id="additions"name="additions"rows="4"cols="50"></textarea><br><br>
+
+                <input type="Submit"value="Finalize your order">
+                <input type="Reset"value="Make another choices">
+    
+        </form>
+        <footer>
+            <p>All set for a delicious meal</p>
+        </footer>
+        <p>You are now all set to enjoy your customized pizza! </p>
+        <p>Have fun !!!</p>
+        </section>
+    </main>
+</body>
+</html>
