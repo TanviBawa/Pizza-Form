@@ -2,7 +2,7 @@ body
 {
     background-image: url(Pizza.jpg);
     
-    
+    background-repeat = no-repeat;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: darkorange;
     margin: 10px;;
